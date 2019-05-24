@@ -3,15 +3,16 @@ import Feature from './Feature/Feature'
 
 function FeaturesList(props){
   const features = Object.keys(props.features)
-          .map(key => {
-            const options = props.features[key].map((item, index) => {
-              const selectedClass = item.name === props.selected[key].name ? 'feature__selected' : '';
+          .map(category => {
+            const options = props.features[category].map((item, index) => {
+              const selectedClass = item.name === props.selected[category].name ? 'feature__selected' : '';
               const featureClass = 'feature__option ' + selectedClass;
-              return <Feature key={index} item={item} featureClass={featureClass} updateFeature={props.updateFeature} />
+              // const featureHeader= 
+              return <Feature key={index} featureHeader={category} item={item} featureClass={featureClass} updateFeature={props.updateFeature} />
             });
 
-            return <div className="feature" key={key}>
-              <div className="feature__name">{key}</div>
+            return <div className="feature" key={category}>
+              <div className="feature__name">{category}</div>
               <ul className="feature__list">
                 { options }
               </ul>
