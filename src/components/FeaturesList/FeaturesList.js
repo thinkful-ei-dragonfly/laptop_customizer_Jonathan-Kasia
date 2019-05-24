@@ -7,7 +7,6 @@ function FeaturesList(props){
             const options = props.features[category].map((item, index) => {
               const selectedClass = item.name === props.selected[category].name ? 'feature__selected' : '';
               const featureClass = 'feature__option ' + selectedClass;
-              // const featureHeader= 
               return <Feature key={index} featureHeader={category} item={item} featureClass={featureClass} updateFeature={props.updateFeature} />
             });
 

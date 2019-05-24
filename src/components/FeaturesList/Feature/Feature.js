@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Feature(props){
-  console.log(props)
   return <li className="feature__item">
   <div className={props.featureClass}
     

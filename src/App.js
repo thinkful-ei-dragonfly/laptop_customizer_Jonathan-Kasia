@@ -46,20 +46,6 @@ class App extends Component {
 
           <FeaturesList features={this.props.features} selected={this.state.selected} updateFeature={this.updateFeature} />
           <Checkout selected = {this.state.selected} />
-          {/* <section className="main__summary">
-            <h3>NEW GREENLEAF 2018</h3>
-            {summary}
-            <div className="summary__total">
-              <div className="summary__total__label">Your Price: </div>
-             
-              <div className="summary__total__value">
-              { new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'})
-                  .format(total) }
-              </div>
-            </div>
-          </section>
-         */}
-        
         </main>
       </div>
     );
