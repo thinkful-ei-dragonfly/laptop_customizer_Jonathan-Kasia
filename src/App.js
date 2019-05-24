@@ -44,7 +44,7 @@ class App extends Component {
         <main>
 
           <FeaturesList features={this.props.features} selected={this.state.selected} updateFeature={this.updateFeature} />
-          <Checkout selected = {this.state.selected} />
+          <Checkout selected={this.state.selected} />
         </main>
       </div>
     );
