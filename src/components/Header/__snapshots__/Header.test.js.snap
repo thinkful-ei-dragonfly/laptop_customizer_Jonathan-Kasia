@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders the UI as expected 1`] = `
+<div>
+  <header>
+    <h1>
+      ELF Computing
+    </h1>
+    <h3>
+      Laptops
+    </h3>
+    <h5>
+      Customize your laptop
+    </h5>
+  </header>
+</div>
+`;
