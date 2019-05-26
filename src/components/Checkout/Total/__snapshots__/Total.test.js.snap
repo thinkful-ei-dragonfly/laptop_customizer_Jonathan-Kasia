@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Total component Renders the UI as expected 1`] = `
+<div
+  className="summary__total"
+>
+  <div
+    className="summary__total__label"
+  >
+    Your Price: 
+  </div>
+  <div
+    className="summary__total__value"
+  >
+    $1,325.00
+  </div>
+</div>
+`;
