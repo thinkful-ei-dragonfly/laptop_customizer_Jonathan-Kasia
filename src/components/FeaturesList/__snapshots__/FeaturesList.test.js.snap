@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features List component Renders the UI as expected 1`] = `
+<section
+  className="main__form"
+>
+  <h3>
+    TECH SPECS AND CUSTOMIZATIONS
+  </h3>
+</section>
+`;
