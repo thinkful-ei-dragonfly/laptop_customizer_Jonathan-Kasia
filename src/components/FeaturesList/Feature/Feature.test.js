@@ -5,15 +5,6 @@ import Feature from './Feature'
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 
-this.state = {
-  selected: {
-    Display: {
-        name: '15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs',
-        cost: 1500
-      }
-  }
-}
-
 const updateFeature = (feature, newValue) => {
   const selected = Object.assign({}, this.state.selected);
   selected[feature] = newValue;
@@ -48,12 +39,6 @@ describe('Feature Component', () => {
 
   it("Renders UI as expected when feature is not selected", () => {
     const wrapper = shallow(<Feature featureHeader='Display' item={item} featureClass={`feature__option`} updateFeature={updateFeature} />)
-    expect(toJson(wrapper)).toMatchSnapshot()
-  })
-
-  it("Changes feature to 'selected' when selected", () => {
-    const wrapper = shallow(<Feature featureHeader='Display' item={item} featureClass={`feature__option`} updateFeature={updateFeature} />)
-    wrapper.find("div").simulate('click')
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 

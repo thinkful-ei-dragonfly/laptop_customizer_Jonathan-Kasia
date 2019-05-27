@@ -8,9 +8,9 @@ exports[`Feature Component Renders UI as expected when feature is not selected 1
     className="feature__option"
     onClick={[Function]}
   >
-    17th Generation Intel Core HB (7 Core with donut spare)
+    15.3" HGTV (3840 x 2160) Home makeover edition
     (
-    $700.00
+    $1,400.00
     )
   </div>
 </li>
@@ -24,9 +24,9 @@ exports[`Feature Component Renders UI as expected when feature is selected 1`] =
     className="feature__option feature__selected"
     onClick={[Function]}
   >
-    17th Generation Intel Core HB (7 Core with donut spare)
+    15.3" HGTV (3840 x 2160) Home makeover edition
     (
-    $700.00
+    $1,400.00
     )
   </div>
 </li>
@@ -40,9 +40,9 @@ exports[`Feature Component Renders the UI as expected 1`] = `
     className="feature__option"
     onClick={[Function]}
   >
-    17th Generation Intel Core HB (7 Core with donut spare)
+    15.3" HGTV (3840 x 2160) Home makeover edition
     (
-    $700.00
+    $1,400.00
     )
   </div>
 </li>
