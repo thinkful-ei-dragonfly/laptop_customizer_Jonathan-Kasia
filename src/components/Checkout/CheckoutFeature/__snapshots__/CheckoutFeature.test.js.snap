@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutFeature Component Renders the UI as expected 1`] = `
+Array [
+  <div
+    className="summary__option"
+  >
+    <div
+      className="summary__option__label"
+    >
+      Processor
+        
+    </div>
+    <div
+      className="summary__option__value"
+    >
+      MacBookPro
+    </div>
+    <div
+      className="summary__option__cost"
+    >
+      $700.00
+    </div>
+  </div>,
+  <div
+    className="summary__option"
+  >
+    <div
+      className="summary__option__label"
+    >
+      Operating System
+        
+    </div>
+    <div
+      className="summary__option__value"
+    >
+      Ubuntu Linux 16.04
+    </div>
+    <div
+      className="summary__option__cost"
+    >
+      $200.00
+    </div>
+  </div>,
+  <div
+    className="summary__option"
+  >
+    <div
+      className="summary__option__label"
+    >
+      Video Card
+        
+    </div>
+    <div
+      className="summary__option__value"
+    >
+      NVidia
+    </div>
+    <div
+      className="summary__option__cost"
+    >
+      $1,150.98
+    </div>
+  </div>,
+  <div
+    className="summary__option"
+  >
+    <div
+      className="summary__option__label"
+    >
+      Display
+        
+    </div>
+    <div
+      className="summary__option__value"
+    >
+      Sony
+    </div>
+    <div
+      className="summary__option__cost"
+    >
+      $1,500.00
+    </div>
+  </div>,
+]
+`;
